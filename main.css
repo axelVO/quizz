@@ -1,0 +1,43 @@
+.theme-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-size: 40px;
+}
+.theme-link:hover{
+    text-decoration: none;
+    color: 
+}
+.theme-link:active{
+    text-decoration: none;
+    color: 
+}
+
+.container {
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+    margin-left: 8vw
+  
+    
+}
+.btn-modal {
+    margin-left: 93vw;
+    margin-top: -30vh;
+    width: 6vw;
+    height: 10vh;
+}
+.btn-modal-1 {
+    margin-left: 90vw;
+    margin-top: -30vh;
+    width: 6vw;
+    height: 10vh;
+}
+
+.erreur{
+   position: absolute;
+   left: 42vw;
+   top:2vh;
+    color:red;
+
+
+};

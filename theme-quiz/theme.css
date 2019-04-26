@@ -1,0 +1,250 @@
+
+.b1{
+    width: 15vw ;
+    margin-left: 2vw;
+    top: 20vh;
+    position: absolute;
+
+}
+.b2{
+    width: 15vw ;
+    margin-left: 22vw;
+    top: 20vh;
+    position: absolute;
+}
+.b3{
+    width: 15vw ;
+    margin-left: 42vw;
+    top: 20vh;
+    position: absolute;
+}
+.b4{
+    width: 15vw ;
+    margin-left: 62vw;
+    top: 20vh;
+    position: absolute;
+}
+.b5{
+    width: 15vw ;
+    margin-left: 82vw;
+    top: 20vh;
+    position: absolute;
+}
+
+.b6{
+    width: 15vw ;
+    margin-left: 2vw;
+    top: 60vh;
+    position: absolute;
+}
+.b7{
+    width: 15vw ;
+    margin-left: 22vw;
+    top: 60vh;
+    position: absolute;
+}
+.b8{
+    width: 15vw ;
+    margin-left: 42vw;
+    top: 60vh;
+    position: absolute;
+}
+.b9{
+    width: 15vw ;
+    margin-left: 62vw;
+    top: 60vh;
+    position: absolute;
+}
+.b10{
+    width: 15vw ;
+    margin-left: 82vw;
+    top: 60vh;
+    position: absolute;
+}
+@media (max-width: 1200px){
+    .b1{
+        width: 45vw ;
+        margin-left: 2vw;
+        top: 2vh;
+        position: absolute;
+        height:10vh;
+    
+    }
+    .b2{
+        width: 45vw ;
+        margin-left: 52vw;
+        top: 2vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b3{
+        width: 45vw ;
+        margin-left: 2vw;
+        top: 15vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b4{
+        width: 45vw ;
+        margin-left: 52vw;
+        top: 15vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b5{
+        width: 45vw ;
+        margin-left: 2vw;
+        top: 30vh;
+        position: absolute;
+        height:10vh;
+    }
+    
+    .b6{
+        width: 45vw ;
+        margin-left: 52vw;
+        top: 30vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b7{
+        width: 45vw ;
+        margin-left: 2vw;
+        top: 45vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b8{
+        width: 45vw ;
+        margin-left: 52vw;
+        top: 45vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b9{
+        width: 45vw ;
+        margin-left: 2vw;
+        top: 60vh;
+        position: absolute;
+        height:10vh;
+    }
+    .b10{
+        width: 45vw ;
+        margin-left: 52vw;
+        top: 60vh;
+        position: absolute;
+        height:10vh;
+    }
+
+    .titre{
+        z-index: 7;
+        color: white;
+        font-family: 'Source Sans Pro';
+        position: absolute;
+        top: 10vh;
+
+        animation-name: fake-bt;
+        animation-duration: 900ms;
+        animation-fill-mode: forwards
+    }
+}
+.theme-text {
+    font-size: 3vh;
+}
+body{
+    background-image: url(../img/portfolio-2.jpg);
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    background-position: 0vw 100vh; 
+    animation-name: fake-bac;
+    animation-duration: 900ms;
+    animation-fill-mode: forwards
+}
+
+.b{
+    border-radius: 50px;
+    animation-name: fake-b;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+
+}
+
+.fake-page {
+    background-image: url(../img/bg-masthead.jpg);
+    background-size: 100vw;
+    z-index: 5;
+    height: 100vh;
+    animation-name: fake;
+    animation-duration: 900ms;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards
+
+}
+@keyframes fake-b {
+    from{
+        margin-top: 100vh;
+
+       
+    }
+    to  {
+        margin-top: 00vh;
+      
+    }
+    
+    }
+    @keyframes fake-bt {
+        0%{
+       
+            top: 60vh;
+        }
+        60%{
+            top: 50vh;
+        }
+        60%{
+            top: 100vh;
+        }
+        100%  {
+        
+            top:170vh;
+        }
+        
+        }
+    @keyframes fake-bac {
+        from{
+           
+            background-position: 0vw 100vh
+        }
+        to  {
+            
+            background-position: 0vw 0vh
+        }
+        
+        }
+@keyframes fake {
+from{
+    height: 100vh;
+    margin-top: 0vh;
+}
+to  {
+    height: 0vh;
+    margin-top: -100vh;
+}
+
+}
+.titre{
+    z-index: 7;
+    color: white;
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    top: 10vh;
+    left:45vw;
+    animation-name: fake-bt;
+    animation-duration: 900ms;
+
+    animation-fill-mode: forwards
+}
+.container {
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+   left:8vw;
+}

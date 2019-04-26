@@ -1,0 +1,194 @@
+.theme-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-size: 40px;
+}
+.theme-link:hover{
+    text-decoration: none;
+    color: 
+}
+.theme-link:active{
+    text-decoration: none;
+    color: 
+}
+
+
+.btn-modal {
+    margin-left: 93vw;
+    margin-top: -30vh;
+    width: 6vw;
+    height: 10vh;
+}
+.btn-modal-1 {
+    margin-left: 90vw;
+    margin-top: -30vh;
+    width: 6vw;
+    height: 10vh;
+}
+
+.erreur{
+   position: absolute;
+   left: 42vw;
+   top:2vh;
+    color:red;
+
+
+}
+
+.b1{
+    width: 15vw ;
+    margin-left: 2vw;
+    top: 20vh;
+    position: absolute;
+}
+.b2{
+    width: 15vw ;
+    margin-left: 22vw;
+    top: 20vh;
+    position: absolute;
+}
+.b3{
+    width: 15vw ;
+    margin-left: 42vw;
+    top: 20vh;
+    position: absolute;
+}
+.b4{
+    width: 15vw ;
+    margin-left: 62vw;
+    top: 20vh;
+    position: absolute;
+}
+.b5{
+    width: 15vw ;
+    margin-left: 82vw;
+    top: 20vh;
+    position: absolute;
+}
+
+.b6{
+    width: 15vw ;
+    margin-left: 2vw;
+    top: 60vh;
+    position: absolute;
+}
+.b7{
+    width: 15vw ;
+    margin-left: 22vw;
+    top: 60vh;
+    position: absolute;
+}
+.b8{
+    width: 15vw ;
+    margin-left: 42vw;
+    top: 60vh;
+    position: absolute;
+}
+.b9{
+    width: 15vw ;
+    margin-left: 62vw;
+    top: 60vh;
+    position: absolute;
+}
+.b10{
+    width: 15vw ;
+    margin-left: 82vw;
+    top: 60vh;
+    position: absolute;
+}
+
+body{
+    background-image: url(img/portfolio-2.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0vw 100vh; 
+    animation-name: fake-bac;
+    animation-duration: 1200ms;
+    animation-direction: reverse;
+    animation-fill-mode: forwards
+}
+.b{
+
+    animation-name: fake-bt;
+    animation-duration: 900ms;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.masthead {
+    background-image: url(img/bg-masthead.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0vw 100vh; 
+    animation-name: fake-b;
+    animation-duration: 1000ms;
+
+    animation-fill-mode: forwards;
+    
+
+}
+@keyframes fake-b {
+    from{
+        margin-top: -100vh;
+
+       
+    }
+    to  {
+        margin-top: 0vh;
+      
+    }
+    
+    }
+    @keyframes fake-bt {
+        0%{
+       
+            top: 20vh;
+        }
+     
+        100%  {
+        
+            top: 700px;
+        }
+        
+        }
+    @keyframes fake-bac {
+        from{
+           
+            background-position: 0vw 100vh
+        }
+        to  {
+            
+            background-position: 0vw 0vh
+        }
+        
+        }
+@keyframes fake {
+from{
+    height: 100vh;
+    margin-top: 0vh;
+}
+to  {
+    height: 0vh;
+    margin-top:-100vh;
+}
+
+}
+
+.titre{
+    z-index: 7;
+    color: white;
+    font-family: 'Source Sans Pro';
+    position: absolute;
+
+    animation-name: fake-bac;
+    animation-duration: 900ms;
+    animation-fill-mode: forwards
+}
+.container {
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+   left:8vw;
+}
+

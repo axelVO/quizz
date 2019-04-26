@@ -1,0 +1,246 @@
+.reponse1{
+    width:25vw;
+    left:21vw;
+    top: 30vh;
+    height: 10vh;
+    position: absolute;
+    background-color: lightgrey;
+}
+.reponse2{
+    width: 25vw ;
+    left:56vw;
+    top: 30vh;
+    height: 10vh;
+    position: absolute;
+    background-color: lightgrey;
+}
+.reponse3{
+    width: 25vw ;
+    left:21vw;
+    top: 50vh;
+    height: 10vh;
+    position: absolute;
+    background-color: lightgrey;
+}
+.reponse4{
+    width: 25vw ;
+    left:56vw;
+    top: 50vh;
+    height: 10vh;
+    position: absolute;
+    background-color: lightgrey;
+}
+
+
+ .reponse {
+    background-color: darkcyan; /* Green */
+    border: none;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    border-style:dashed solid ;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+
+    font-size: 16px;
+
+    border-radius: 10px;
+    text-decoration: none;
+
+  }
+  .vrai{
+    background-color: green;
+  }
+
+@keyframes faux1 {
+    0%{
+        margin-left: 39vw;
+    }
+
+    50%{
+        margin-left: 41vw;
+    }
+    100%{
+        margin-left: 40vw;
+    }
+}
+    @keyframes faux2 {
+        0%{
+            margin-left: 4vw;
+        }
+    
+        50%{
+            margin-left: 6vw;
+        }
+        100%{
+            margin-left: 5vw;
+        }
+
+}
+body{
+    background-image: url(../img/portfolio-3.jpg);
+    background-size: 212vh;
+}
+
+.card{
+    border-radius: 10px;
+    height: 50vh;
+    width: 70vw;
+    margin-left: 15vw;
+border: 3px blue solid;
+z-index: 100;
+    overflow: hidden;
+    background-color: rgba(233, 233, 233, 0.6);
+    box-shadow: 0.5vw 1vh 5px black ;
+}
+
+
+
+.faux{
+    background-color: rgba(255, 0, 0, 0.6);
+    display: none;
+}
+.faux-no-hidden  {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+
+.bouton3 {
+    margin-left: 87vw;
+    margin-top: 10vh;
+    padding: 10px 30px;
+    background: rgb(223, 57, 35);
+    color: #ecebe7;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    border: 3px solid #46a28d;
+    }
+    .bouton3:hover {
+    background: #34393E;
+    color: rgb(49, 186, 245);
+    }
+h3{
+    margin-top: -10px;
+}
+.hidden {
+    display: none;
+}
+.expli{
+
+}
+.div-expl{
+ 
+  background-color: rgba(233, 233, 233, 0.6);
+}
+/* Barre de temps */
+.bar {
+    width: 30em;
+    height: 1em;
+    border-radius: 0.5em;
+    position: relative;
+    background: #f2f2f2;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+  }
+  .bar .percentage {
+    position: relative;
+    font-size: 1em;
+    background: tomato;
+    height: 1em;
+    border-radius: 0.5em;
+  }
+
+  @keyframes timer-slide-lt {
+    0% {
+      transform: rotate(135deg);
+    }
+    50% {
+      transform: rotate(135deg);
+    }
+    100% {
+      transform: rotate(315deg);
+    }
+   
+  }
+  @keyframes timer-slide-rt {
+    0% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(135deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+   
+  }
+  .timer {
+    width: 100%;
+    height: 100%;
+    margin-top:-65vh;
+    margin-left: -42vw;
+
+  }
+  .timer .circle-timer {
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+    position: relative;
+    cursor: pointer;
+  }
+  .timer .circle-timer .timer-slot {
+
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+  }
+  .timer .circle-timer .timer-slot .timer-lt, .timer .circle-timer .timer-slot .timer-rt {
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 0;
+    z-index: 15;
+    border: 10px solid white;
+    width: 180px;
+    height: 180px;
+    margin-left: -100px;
+    margin-top: -100px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    z-index: 5;
+  }
+  .timer .circle-timer .timer-slot .timer-lt {
+    animation: 10s linear forwards timer-slide-lt;
+    left: 100%;
+  }
+  .timer .circle-timer .timer-slot .timer-rt {
+    animation: 10s linear forwards  timer-slide-rt;
+  }
+  .timer .circle-timer .count {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-family: sans-serif;
+  }
+  .timer .circle-timer.paused .timer-lt, .timer .circle-timer.paused .timer-rt {
+    animation-play-state: paused;
+    transition: all 0.5s;
+  }
+  .timer .circle-timer.paused .timer-lt, .timer .circle-timer.paused .timer-rt, .timer .circle-timer:hover .timer-lt, .timer .circle-timer:hover .timer-rt {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    transition: all 0.5s;
+  }
+  .timer .circle-timer.paused .count {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+  }
+  
